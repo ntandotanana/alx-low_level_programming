@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print if the number is postive, zero, or negative
  * Description: program prints "Programming is positive, zero, or negative"
