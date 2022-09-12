@@ -2,7 +2,7 @@
 /**
  * main - printing numbers from 0-9 with commas and spaces between
  * Description: program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
- * Retrun: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -18,5 +18,5 @@ for (c = 48; c <= 57; c++)
 	}
 }
 putchar('\n');
-return(0);
+return (0);
 }
