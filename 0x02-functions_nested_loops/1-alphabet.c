@@ -1,17 +1,15 @@
 #include "main.h"
 /**
- * main - entry point
- * Description: print_alphabet should check the code
+ * print_alphabet - should check the code
  *
- * Return: Always 0 (success)
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-int n;
+char n;
 for (n = 'a'; n <= 'z'; n++)
 {
 	_putchar(n);
 }
 _putchar('\n');
-return (0);
 }
