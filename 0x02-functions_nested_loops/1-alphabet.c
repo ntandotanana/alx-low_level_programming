@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main - check the code
+ * main - entry point
+ * Description: print_alphabet should check the code
  *
  * Return: Always 0 (success)
  */
