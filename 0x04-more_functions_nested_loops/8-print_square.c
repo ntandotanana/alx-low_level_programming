@@ -1,30 +1,28 @@
 #include "main.h"
 
 /**
- * print_square - function that prints a square. followed by a new line
- * @size: size of both width and length
- * Return: a square made of '#'
+ * print_square - prints square stuff
+ *
+ * @size: integer to set square size
  */
+
 void print_square(int size)
 {
-    int co, ro;
+	int i;
+	int j;
 
-    if (size <= 0)
-    {
-        _putchar('n');
-    }
-    else
-    {
-        for (co = 1; co <= size; co++)
-        {
-            _putchar('#');
-
-            for (ro = 2; ro <= size; ro++)
-            {
-                _putchar('#');
-            }
-            _putchar('\n');
-        }
-    }
-    
+	if (size <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		for (i = 0; i < size; i++)
+		{
+			for (j = 0; j < size; j++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
+	}
 }
