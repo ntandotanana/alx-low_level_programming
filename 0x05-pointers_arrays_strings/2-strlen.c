@@ -12,8 +12,8 @@ char pl = s[0];
 
 while (pl != '\0')
 {
-    sum++;
-    pl = s[i++];
+sum++;
+pl = s[i++];
 }
 return (sum);
 }
