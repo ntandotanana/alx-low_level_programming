@@ -1,4 +1,4 @@
-#include <srtdio.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
