@@ -13,12 +13,12 @@ int i, n;
 
 for (i = 0; s[i] != '\0'; i++)
 {
-    fcounter++;
+fcounter++;
 }
 
 for (n = (fcounter - 1); n >= 0; n--)
 {
-    _putchar(s[n]);
+_putchar(s[n]);
 }
 _putchar('\n');
 }
